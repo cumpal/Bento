@@ -55,9 +55,9 @@ const CONFIG = {
     },
     {
       id: '4',
-      name: 'Reddit',
-      icon: 'book-open',
-      link: 'https://reddit.com/',
+      name: 'Jellyfin',
+      icon: 'tv',
+      link: 'https://tv.mha.fi',
     },
     {
       id: '5',
@@ -70,12 +70,6 @@ const CONFIG = {
       name: 'YouTube',
       icon: 'youtube',
       link: 'https://youtube.com',
-    },
-    {
-      id: '7',
-      name: 'Jellyfin',
-      icon: 'tv',
-      link: 'https://tv.mha.fi',
     },
   ],
 
@@ -91,8 +85,8 @@ const CONFIG = {
   lists: {
     firstList: [
       {
-        name: 'Facebook',
-        link: 'https://facebook.com',
+        name: 'Reddit',
+        link: 'https://reddit.com',
       },
       {
         name: 'Google',
@@ -105,6 +99,10 @@ const CONFIG = {
       {
         name: 'Twitter',
         link: 'https://twitter.com',
+      },
+      {
+        name: 'Facebook',
+        link: 'https://facebook.com',
       },
     ],
     secondList: [
