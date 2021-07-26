@@ -22,11 +22,11 @@ const CONFIG = {
   greetingNight: 'Go to Sleep!',
 
   // Weather
-  weatherKey: 'InsertYourAPIKeyHere123456',
+  weatherKey: 'a5e6f0abb8afcfd928afdc11788d82f6',
   weatherIcons: 'OneDark', // 'Nord', 'Dark', 'White'
   weatherUnit: 'C',
-  weatherLatitude: '37.774929',
-  weatherLongitude: '-122.419418',
+  weatherLatitude: '60.635681',
+  weatherLongitude: '-25.320351',
   
 
   // ┌─┐┌─┐┬─┐┌┬┐┌─┐
@@ -37,39 +37,45 @@ const CONFIG = {
   cards: [
     {
       id: '1',
-      name: 'Github',
-      icon: 'github',
-      link: 'https://github.com/',
+      name: 'Search',
+      icon: 'search',
+      link: 'https://searx.mha.fi/',
     },
     {
       id: '2',
       name: 'Mail',
       icon: 'mail',
-      link: 'https://mail.protonmail.com/',
+      link: 'https://mail.mha.fi/',
     },
     {
       id: '3',
-      name: 'Todoist',
-      icon: 'trello',
-      link: 'https://calendar.google.com/calendar/r',
+      name: 'Cloud',
+      icon: 'cloud',
+      link: 'https://cloud.mha.fi',
     },
     {
       id: '4',
-      name: 'Calendar',
-      icon: 'calendar',
-      link: 'https://calendar.google.com/calendar/r',
+      name: 'Reddit',
+      icon: 'book-open',
+      link: 'https://reddit.com/',
     },
     {
       id: '5',
-      name: 'Reddit',
-      icon: 'bookmark',
-      link: 'https://reddit.com',
+      name: 'YT Music',
+      icon: 'music',
+      link: 'https://music.youtube.com',
     },
     {
       id: '6',
-      name: 'Odysee',
+      name: 'YouTube',
       icon: 'youtube',
-      link: 'https://odysee.com/',
+      link: 'https://youtube.com',
+    },
+    {
+      id: '7',
+      name: 'Jellyfin',
+      icon: 'tv',
+      link: 'https://tv.mha.fi',
     },
   ],
 
@@ -78,45 +84,45 @@ const CONFIG = {
   // ┴─┘┴└─┘ ┴ └─┘
 
   //Icons
-  firstListIcon: 'music',
+  firstListIcon: 'meh',
   secondListIcon: 'coffee',
 
   // Links
   lists: {
     firstList: [
       {
-        name: 'Inspirational',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Facebook',
+        link: 'https://facebook.com',
       },
       {
-        name: 'Classic',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Google',
+        link: 'https://google.fi',
       },
       {
-        name: 'Oldies',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Netflix',
+        link: 'https://netflix.com',
       },
       {
-        name: 'Rock',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Twitter',
+        link: 'https://twitter.com',
       },
     ],
     secondList: [
       {
-        name: 'Linkedin',
-        link: 'https://linkedin.com/',
+        name: 'Monkeytype',
+        link: 'https://monkeytype.com',
       },
       {
-        name: 'Figma',
-        link: 'https://figma.com/',
+        name: 'G Translate',
+        link: 'https://translate.google.com',
       },
       {
-        name: 'Dribbble',
-        link: 'https://dribbble.com',
+        name: 'DNS Dumpster',
+        link: 'https://dnsdumpster.com',
       },
       {
-        name: 'Telegram',
-        link: 'https://webk.telegram.org',
+        name: 'Pi-Hole',
+        link: 'https://10.66.66.1/admin',
       },
     ],
   },
