@@ -120,7 +120,11 @@ const CONFIG = {
       },
       {
         name: 'Pi-Hole',
-        link: 'https://10.66.66.1/admin',
+        link: 'http://10.66.66.1/admin',
+      },
+      {
+        name: 'rss.mha.fi',
+        link: 'https://rss.mha.fi',
       },
     ],
   },
