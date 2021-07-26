@@ -26,7 +26,7 @@ const CONFIG = {
   weatherIcons: 'OneDark', // 'Nord', 'Dark', 'White'
   weatherUnit: 'C',
   weatherLatitude: '60.635681',
-  weatherLongitude: '-25.320351',
+  weatherLongitude: '25.32035125.320351',
   
 
   // ┌─┐┌─┐┬─┐┌┬┐┌─┐
