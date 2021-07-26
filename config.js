@@ -12,7 +12,7 @@ const CONFIG = {
 
   // General
   name: 'Mico',
-  imageBackground: false,
+  imageBackground: true,
   openInNewTab: true,
 
   // Greetings
